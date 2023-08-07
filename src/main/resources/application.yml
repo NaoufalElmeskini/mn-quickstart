@@ -5,3 +5,10 @@ micronaut:
   server:
     port: ${SERVER_PORT:8081}
 
+
+hello:
+  language: "english"
+  world:
+    message:
+      en: "some hello message..."
+      de: "oder ..."
