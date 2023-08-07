@@ -1,0 +1,13 @@
+
+
+- MN utilise AOT
+
+inversionOfControl:
+- difference avec spring :
+spring utilise beaucoup de runtime reflection + proxies...
+mn utilise annotationProcessing et AOT compilation
+
+design goals of MN :
+- reflection is bad, only when necessary
+--- annotation processing during compilation
+-
