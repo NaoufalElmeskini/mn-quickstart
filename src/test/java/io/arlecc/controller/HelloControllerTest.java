@@ -23,7 +23,7 @@ class HelloControllerTest {
     {
         var response = httpClient.toBlocking().retrieve("");
 
-        assertEquals("hello world!", response);
+        assertEquals("hello from HelloServiceImpl", response);
     }
 
     @Test
